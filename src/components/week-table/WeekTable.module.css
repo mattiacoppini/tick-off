@@ -1,0 +1,8 @@
+.table tr td, .table tr th{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table :not(thead) tr:nth-child(odd) {
+  background-color: #dcdbdb6e;
+}
